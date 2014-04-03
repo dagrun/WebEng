@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
-		<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" type="text/css" charset="utf-8">
 		<script  type="text/javascript" src="JS/jquery-2.1.0.js"></script>
 		<script src="JS/script.js" type="text/javascript"></script>
 		

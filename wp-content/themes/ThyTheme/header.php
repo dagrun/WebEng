@@ -5,7 +5,7 @@
 		<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" type="text/css" charset="utf-8">
 		<script  type="text/javascript" src="JS/jquery-2.1.0.js"></script>
-		<script src="JS/script.js" type="text/javascript"></script>
+		<script  src="JS/script.js" type="text/javascript"></script>
 		
 		<?php wp_head(); ?>
 	</head>
@@ -18,3 +18,6 @@
 					<?php wp_list_pages('title_li='); ?>
 				</ul>
 			</header>
+        </div>
+    </body>
+</html>

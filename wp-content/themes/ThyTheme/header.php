@@ -18,6 +18,3 @@
 					<?php wp_list_pages('title_li='); ?>
 				</ul>
 			</header>
-        </div>
-    </body>
-</html>

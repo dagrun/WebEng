@@ -1,5 +1,4 @@
-<html>
-    <body>
+
 		<footer>
 			<div>
 				<h3>Disclaimer</h3>

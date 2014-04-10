@@ -11,8 +11,12 @@
 	</head>
 	<body>
 		<div>
-			<header>
-				<h1><a href="#">Evaluate Thy Hotel</a></h1>
+			<header> 
+                <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt=""/>
+				<h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+                <div class="description">
+                    <?php bloginfo('description'); ?>
+                </div>
 				<ul>
 					<li><a href="<?php echo get_option('home'); ?>">Home</a></li>
 					<?php wp_list_pages('title_li='); ?>

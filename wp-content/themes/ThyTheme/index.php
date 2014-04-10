@@ -33,7 +33,7 @@
 <?php else : ?>
 	<h2> Nothing found </h2>
 	<p>Sorry, but you are looking for something that isn't here</p>
-	<p><a href="<?php echo get_option('home'); ?>">Return to the homepage</></p>
+	<p><a href="<?php echo get_option('home'); ?>">Return to the homepage</a></p>
 <?php endif; ?>
 </section>	
 <aside>

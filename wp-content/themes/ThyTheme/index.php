@@ -19,10 +19,8 @@
 				<?php the_content(''); ?>					
 			</div>
 			<details>
-				<ul class="meta">
-					<li><?php the_time('F jS, Y') ?></li>
-					<li><?php comments_number('No comments', '1 Comment', '% Comments'); ?></li>
-				</ul>
+				<div id="time"><?php the_time('F jS, Y') ?></div>
+				<span><?php comments_number('No comments', '1 Comment', '% Comments'); ?></span>
 			</details>
 		</article>
 	<?php endwhile; ?>

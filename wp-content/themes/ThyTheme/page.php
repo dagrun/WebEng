@@ -7,9 +7,7 @@
 <?php if (have_posts()) : ?>
 	<?php while (have_posts()) : the_post(); ?>
 		<article>
-			<div>
-				<h3><?php the_title(); ?></h3>
-				
+			<div>				
 				<?php if ( has_post_thumbnail() ) : ?>
 				<div class="post-thumb">
 					<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?></a>

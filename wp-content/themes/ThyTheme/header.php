@@ -11,9 +11,9 @@
 	</head>
 	<body>
 		<div>
-			<header> 
-                <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt=""/>
-				<h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+			<header style="background-image: url(<?php header_image();?>); width: <?php echo get_custom_header()->width; ?>px; height: <?php echo get_custom_header()->height; ?>px">
+                <h1 class="site-title"><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+                
                 <div class="description">
                     <?php bloginfo('description'); ?>
                 </div>

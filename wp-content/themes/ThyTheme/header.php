@@ -11,12 +11,8 @@
 	</head>
 	<body>
 		<div>
-			<header style="background-image: url(<?php header_image();?>); width: <?php echo get_custom_header()->width; ?>px; height: <?php echo get_custom_header()->height; ?>px">
-                <h1 class="site-title"><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
-                
-                <div class="description">
-                    <?php bloginfo('description'); ?>
-                </div>
+			<header>
+                <h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
 				<ul>
 					<li><a href="<?php echo get_option('home'); ?>">Home</a></li>
 					<?php wp_list_pages('title_li='); ?>
